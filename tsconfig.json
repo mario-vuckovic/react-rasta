@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
     "outDir": "lib",
-    "module": "commonjs",
+    "module": "esnext",
     "target": "es5",
     "lib": ["esnext", "dom"],
     "allowSyntheticDefaultImports": true,
-    "allowJs": false,
+    "allowJs": true,
     "declaration": true,
     "forceConsistentCasingInFileNames": true,
     "esModuleInterop": true,
