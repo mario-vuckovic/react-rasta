@@ -1,4 +1,4 @@
-import {ComponentClass} from "react";
+import { ComponentClass } from "react";
 import * as styledComponents from "styled-components";
 import Theme from "./Theme";
 declare const styled: styledComponents.ThemedBaseStyledInterface<Theme>,
@@ -13,4 +13,4 @@ declare const styled: styledComponents.ThemedBaseStyledInterface<Theme>,
   ) => string,
   ThemeProvider: ComponentClass<styledComponents.ThemeProviderProps<Theme>>;
 export default styled;
-export {css, injectGlobal, keyframes, ThemeProvider};
+export { css, injectGlobal, keyframes, ThemeProvider };

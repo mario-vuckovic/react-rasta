@@ -6,6 +6,6 @@ declare const _default: (
     | "stretch"
     | "flex-end"
     | "flex-start"
-    | undefined,
+    | undefined
 ) => string;
 export default _default;

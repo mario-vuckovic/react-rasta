@@ -1,8 +1,8 @@
-import {SimpleInterpolation} from "styled-components";
-import {BreakpointMap} from "../media";
+import { SimpleInterpolation } from "styled-components";
+import { BreakpointMap } from "../media";
 declare const _default: (
   breakpoints: BreakpointMap,
-  key: string,
+  key: string
 ) => (
   strings: TemplateStringsArray,
   ...interpolations: SimpleInterpolation[]

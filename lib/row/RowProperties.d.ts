@@ -1,5 +1,5 @@
-import {BreakpointValue} from "../media";
-import {ThemeProperties} from "../theme";
+import { BreakpointValue } from "../media";
+import { ThemeProperties } from "../theme";
 import RowAlignContent from "./RowAlignContent";
 import RowAlignItems from "./RowAlignItems";
 import RowDirection from "./RowDirection";

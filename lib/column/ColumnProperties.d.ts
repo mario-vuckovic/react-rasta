@@ -1,5 +1,5 @@
-import {BreakpointValue} from "../media";
-import {ThemeProperties} from "../theme";
+import { BreakpointValue } from "../media";
+import { ThemeProperties } from "../theme";
 import ColumnAlignSelf from "./ColumnAlignSelf";
 import ColumnFlex from "./ColumnFlex";
 import ColumnOffset from "./ColumnOffset";

@@ -14,6 +14,6 @@ declare const _default: (
     | 8
     | 12
     | 11
-    | undefined,
+    | undefined
 ) => string;
 export default _default;

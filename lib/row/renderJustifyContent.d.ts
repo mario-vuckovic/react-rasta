@@ -5,6 +5,6 @@ declare const _default: (
     | "space-between"
     | "flex-end"
     | "flex-start"
-    | undefined,
+    | undefined
 ) => string;
 export default _default;

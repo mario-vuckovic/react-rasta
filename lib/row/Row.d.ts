@@ -1,6 +1,6 @@
-import {ClassAttributes, HTMLAttributes} from "react";
-import {StyledComponentClass} from "styled-components";
-import {Theme} from "../theme";
+import { ClassAttributes, HTMLAttributes } from "react";
+import { StyledComponentClass } from "styled-components";
+import { Theme } from "../theme";
 import "../utils/bootstrap";
 import RowProperties from "./RowProperties";
 declare const Row: StyledComponentClass<

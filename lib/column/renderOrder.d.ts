@@ -16,6 +16,6 @@ declare const renderOrder: (
     | 13
     | 12
     | 11
-    | undefined,
+    | undefined
 ) => string;
 export default renderOrder;
