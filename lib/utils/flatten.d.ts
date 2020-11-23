@@ -1,3 +1,2 @@
-import { InterpolationValue } from "styled-components";
-declare const _default: (interpolations: InterpolationValue[]) => string;
+declare const _default: (interpolations: any[]) => string;
 export default _default;

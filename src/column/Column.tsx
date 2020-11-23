@@ -1,9 +1,7 @@
-import {ClassAttributes, HTMLAttributes} from "react";
-import {StyledComponentClass} from "styled-components";
-import {BreakpointValue, PropertyValue} from "../media";
-import {styled, Theme} from "../theme";
-import {render} from "../utils";
-import "../utils/bootstrap";
+import { ClassAttributes, HTMLAttributes } from "react";
+import { BreakpointValue, PropertyValue } from "../media";
+import { styled, Theme } from "../theme";
+import { render } from "../utils";
 import ColumnAlignSelf from "./ColumnAlignSelf";
 import ColumnFlex from "./ColumnFlex";
 import ColumnOffset from "./ColumnOffset";
@@ -28,14 +26,14 @@ const Column = styled.div`
       flex: (value?: PropertyValue) => renderFlex(value as ColumnFlex),
       offset: (value?: PropertyValue) => renderOffset(value as ColumnOffset),
       order: (value?: PropertyValue) => renderOrder(value as ColumnOrder),
-      size: (value?: PropertyValue) => renderSize(value as ColumnSize),
+      size: (value?: PropertyValue) => renderSize(value as ColumnSize)
     };
     const valueMap = {
       alignSelf: props!.alignSelf as BreakpointValue<ColumnAlignSelf>,
       flex: props!.flex as BreakpointValue<ColumnFlex>,
       offset: props!.offset as BreakpointValue<ColumnOffset>,
       order: props!.order as BreakpointValue<ColumnOrder>,
-      size: props!.size as BreakpointValue<ColumnSize>,
+      size: props!.size as BreakpointValue<ColumnSize>
     };
 
     return render(valueMap, renderer, props!.theme);

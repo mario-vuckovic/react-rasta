@@ -1,5 +1,5 @@
-import {InterpolationValue} from "styled-components";
+import { FlattenSimpleInterpolation } from "styled-components";
 
-export default (interpolations: InterpolationValue[]): string => {
+export default (interpolations: FlattenSimpleInterpolation): string => {
   return interpolations.join("");
 };

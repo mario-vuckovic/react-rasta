@@ -1,10 +1,8 @@
-import {ClassAttributes, HTMLAttributes} from "react";
-import {StyledComponentClass} from "styled-components";
-import {PropertyValue} from "../media";
+import { ClassAttributes, HTMLAttributes } from "react";
+import { PropertyValue } from "../media";
 import Row from "../row";
-import {gutterWidth, styled, Theme} from "../theme";
-import {css, render} from "../utils";
-import "../utils/bootstrap";
+import { gutterWidth, styled, Theme } from "../theme";
+import { css, render } from "../utils";
 import ContainerProperties from "./ContainerProperties";
 import fullscreen from "./fullscreen";
 import renderWidth from "./renderWidth";
@@ -24,7 +22,7 @@ const Container = styled.div`
     `;
   }} ${(props: ContainerProperties) => {
     if (props.fullscreen) {
-      fullscreen();
+      //fullscreen();
 
       return css`
         height: 100%;
@@ -37,10 +35,10 @@ const Container = styled.div`
       return "";
     } else {
       const renderer = {
-        width: (value?: PropertyValue) => renderWidth(value as number),
+        width: (value?: PropertyValue) => renderWidth(value as number)
       };
       const valueMap = {
-        width: getWidth(props),
+        width: getWidth(props)
       };
 
       return render(valueMap, renderer, props!.theme);

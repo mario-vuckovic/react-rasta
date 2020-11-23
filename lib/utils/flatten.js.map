@@ -1,1 +1,1 @@
-{"version":3,"file":"flatten.js","sourceRoot":"","sources":["../../src/utils/flatten.ts"],"names":[],"mappings":"AAEA,gBAAe,UAAC,cAAoC;IAClD,OAAO,cAAc,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;AACjC,CAAC,EAAC"}
+{"version":3,"file":"flatten.js","sourceRoot":"","sources":["../../src/utils/flatten.ts"],"names":[],"mappings":"AAEA,gBAAe,UAAC,cAA0C;IACxD,OAAO,cAAc,CAAC,IAAI,CAAC,EAAE,CAAC,CAAC;AACjC,CAAC,EAAC"}

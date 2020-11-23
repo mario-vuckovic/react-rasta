@@ -1,6 +1,5 @@
-import { SimpleInterpolation } from "styled-components";
 declare const _default: (
   strings: TemplateStringsArray,
-  ...interpolations: SimpleInterpolation[]
+  ...interpolations: any[]
 ) => string;
 export default _default;

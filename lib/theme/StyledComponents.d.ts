@@ -1,16 +1,7 @@
-import { ComponentClass } from "react";
-import * as styledComponents from "styled-components";
-import Theme from "./Theme";
-declare const styled: styledComponents.ThemedBaseStyledInterface<Theme>,
-  css: styledComponents.ThemedCssFunction<Theme>,
-  injectGlobal: (
-    strings: TemplateStringsArray,
-    ...interpolations: styledComponents.SimpleInterpolation[]
-  ) => void,
-  keyframes: (
-    strings: TemplateStringsArray,
-    ...interpolations: styledComponents.SimpleInterpolation[]
-  ) => string,
-  ThemeProvider: ComponentClass<styledComponents.ThemeProviderProps<Theme>>;
+declare const styled: any,
+  css: any,
+  createGlobalStyle: any,
+  keyframes: any,
+  ThemeProvider: any;
 export default styled;
-export { css, injectGlobal, keyframes, ThemeProvider };
+export { css, createGlobalStyle, keyframes, ThemeProvider };

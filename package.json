@@ -1,6 +1,6 @@
 {
   "name": "react-rasta",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "The most powerful and flexible grid system for React",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "keywords": ["grid", "layout", "css", "flexbox"],
   "scripts": {
-    "build": "yarn prettier && yarn lint && yarn test:coverage && tsc",
+    "build": "yarn prettier && yarn lint && tsc",
     "build-storybook": "build-storybook",
     "cover": "coveralls < coverage/lcov.info",
     "lint": "yarn lint:code && yarn lint:style",
@@ -26,7 +26,7 @@
     "test:coverage": "jest --runInBand --coverage --config jest.config.json"
   },
   "peerDependencies": {
-    "styled-components": ">= 3 < 4"
+    "styled-components": ">= 4 < 6"
   },
   "devDependencies": {
     "@storybook/addon-actions": "^3.4.0",
@@ -41,6 +41,7 @@
     "@types/storybook__addon-actions": "^3.0.3",
     "@types/storybook__addon-links": "^3.3.0",
     "@types/storybook__react": "^3.0.7",
+    "@types/styled-components": "^4.0.0",
     "awesome-typescript-loader": "^4.0.1",
     "babel-core": "^6.26.0",
     "babel-runtime": "^6.26.0",
@@ -51,12 +52,12 @@
     "husky": "^0.14.3",
     "jest": "^22.0.5",
     "jest-junit": "^3.6.0",
-    "jest-styled-components": "^5.0.1",
+    "jest-styled-components": "^7.0.0",
     "prettier": "^1.11.1",
     "pretty-quick": "^1.4.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "styled-components": "^3.3.2",
+    "styled-components": "^4.0.0",
     "stylelint": "^9.2.1",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-config-styled-components": "^0.1.1",
